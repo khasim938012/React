@@ -1,6 +1,6 @@
 import "./app.css";
 import Tittle from "./Tittle.jsx";
-
+import MsgBox from "./MsgBox.jsx"
 
 
 function Description(){
@@ -9,6 +9,7 @@ function Description(){
 
 function App(){
   return (<>
+    <MsgBox username="Khasim" textColor="grey"></MsgBox>
     <Tittle></Tittle>
     <Description></Description>
   </>)
