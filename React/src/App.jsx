@@ -1,9 +1,7 @@
 import "./app.css";
+import Tittle from "./Tittle.jsx";
 
 
-function Tittle(){
-  return <h1>I am the Tittle</h1>
-}
 
 function Description(){
   return <h3>I am the Description</h3>
