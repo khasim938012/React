@@ -8,10 +8,10 @@ function Description(){
 }
 
 function App(){
-  return (<div>
+  return (<>
     <Tittle></Tittle>
     <Description></Description>
-  </div>)
+  </>)
 }
 
 export default App;
