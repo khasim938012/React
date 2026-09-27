@@ -1,9 +1,10 @@
 import "./app.css";
+import TodoList from "./TodoList";
 
 function App() {
   return (
     <>
-      <h1>states in React</h1>
+      <TodoList/>
     </>
   );
 }
